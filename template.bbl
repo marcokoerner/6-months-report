@@ -1,0 +1,45 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Watson1953}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Watson}{W.}%
+     {James~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crick}{C.}%
+     {Francis~HC}{F.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WJDCFH1}
+  \strng{fullhash}{WJDCFH1}
+  \field{number}{4356}
+  \field{pages}{737\bibrangedash 738}
+  \field{title}{Molecular structure of nucleic acids}
+  \field{volume}{171}
+  \field{journaltitle}{Nature}
+  \field{year}{1953}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
