@@ -1,0 +1,149 @@
+% define type of the document
+\documentclass[a4paper,oneside,12pt]{article}
+% set margins
+\usepackage[margin=2.8cm]{geometry}
+% set line width to 1.5
+\usepackage{setspace}
+\onehalfspacing
+% use Times as de­fault text font and maths sup­port
+\usepackage{mathptmx}
+
+% set language to english, plus proper character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+% put quotations like # \enquote{quoted text} to get proper quotation marks
+\usepackage[autostyle]{csquotes}
+
+% enable colors
+\usepackage{graphicx}
+\usepackage{xcolor}
+% hyperlinks in text, plus PDF with bookmarks
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{pdfpages}
+%paragraphs and line spacing
+%\setlength{\parindent}{0pt}
+\usepackage{setspace}
+\raggedbottom
+
+% proper setting of units: # \unit[value]{unit} and chemical formulars # \ce{C2H4OH}
+\usepackage[varioref=false,journal=angew]{chemstyle}
+\usepackage[version=3]{mhchem}
+\usepackage[loose,ugly]{units}
+
+% enable nice tables
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage{multirow}
+
+%bibliography options
+\usepackage[backend=bibtex,defernumbers=true,natbib=true,style=numeric-comp,bibstyle=chem-angew,articletitle=true,sorting=none]{biblatex}
+\addbibresource{references/references1.bib}
+
+
+
+%header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\lhead{}
+\rhead{\thepage}
+\cfoot{\textbf{Your Name Here} -- 6 Months Report, December, 2014}
+
+
+% custom-made commands, e.g. \up{text} to easier set text superscript.
+\newcommand{\up}[1]{\textsuperscript{#1}}
+% use \scite[CitationKey] to set citations in [] and superscript
+\newcommand{\scite}[1]{\textsuperscript{\cite{#1}}}
+% use \sprime to set a proper prime character for nucleosides and nucleotides
+\newcommand{\sprime}{\textsuperscript{$\prime$}}
+% use \celsius to set °C properly
+\newcommand{\degc}{$^{\circ}\mathrm{C}$}
+
+
+
+% custom-made hypenation rules for words that might not occur in the dictionary of LaTeX
+\hyphenation{de-ri-va-ti-za-tion}
+
+% uncomment to enable title graphic (experimental)
+%\usepackage[tc]{titlepic}
+%\titlepic{\includegraphics[scale=1]{img_hi-logo.jpg}}
+
+
+\begin{document}
+\setstretch{1.2}
+
+% set title page
+\begin{titlepage}
+
+\begin{center}
+\huge{\textbf{A Short and Descriptive Title}}
+\end{center}
+
+\vspace{1cm}
+\thispagestyle{empty}
+
+\begin{center}
+\textbf{Your Name Here}
+
+\vspace{1cm}
+ 
+\textbf{Sigurðsson Research Group \\
+A 6 Month Progress Report \\
+December 2014}
+\end{center}
+
+\vspace{10cm}
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=2]{figures/UIlogo}
+	\end{center}
+	\label{logo}
+\end{figure}
+
+\begin{center}
+\textbf{University of Iceland \\
+Department of Chemistry \\
+Science Institute}
+\end{center}
+
+\end{titlepage}
+
+% set table of contents
+\tableofcontents
+
+% include your texts
+\include{text/abstract}
+\include{text/abbreviations}
+\include{text/introduction}
+\include{text/syntheses}
+\include{text/conclusions_and_outlook}
+\include{text/experimental}
+
+% set bibliography and add to table of contents, but without numbering
+\newpage
+\phantomsection \label{bibliography}
+\addcontentsline{toc}{section}{Bibliography}
+\printbibliography[resetnumbers=true]
+
+% same goes for the list of figures
+\newpage
+\phantomsection \label{listoffig}
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\newpage
+\phantomsection \label{listofschemes}
+\addcontentsline{toc}{section}{List of Schemes}
+\listofschemes
+
+% uncomment to allow list of tables
+%\newpage
+%\phantomsection \label{listoftabs}
+%\addcontentsline{toc}{chapter}{List of Tables}
+%\listoftables
+
+\end{document}
