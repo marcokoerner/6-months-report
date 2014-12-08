@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.24)  2 DEC 2014 13:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.24)  8 DEC 2014 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,6 +548,23 @@ File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count113
 \AM@templatesizebox=\box27
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@tempdima=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count114
+Package caption Info: hyperref package is loaded.
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/chemstyle/chemstyle.sty
 Package: chemstyle 2011/01/28 v2.0l Schemes and style for chemistry
 
@@ -557,25 +574,8 @@ Package: amstext 2000/06/29 v2.01
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
-\ex@=\dimen120
+\ex@=\dimen127
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
-)
-\c@ContinuedFloat=\count114
-Package caption Info: hyperref package is loaded.
-)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/chemstyle/chemscheme.sty
 Package: chemscheme 2011/01/28 v2.0l Schemes for chemistry
 
@@ -1363,21 +1363,21 @@ File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 (./text/conclusions_and_outlook.aux) (./text/experimental.aux))
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 92.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1445,7 +1445,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 92.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1455,9 +1455,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count390
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
 
 (./template.out) (./template.out)
 \@outlinefile=\write5
@@ -1565,59 +1565,59 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'template.bbl' found.
 (./template.bbl)
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
 \c__siunitx_mathsf_int=\count392
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 85
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 92
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 85
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 92
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 85
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 92
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 85
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 92
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 92.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 \c__siunitx_mathtt_int=\count393
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 106.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 113.
 
 <figures/UIlogo.jpg, id=48, 48.18pt x 50.3481pt>
 File: figures/UIlogo.jpg Graphic file (type jpg)
  <use figures/UIlogo.jpg>
-Package pdftex.def Info: figures/UIlogo.jpg used on input line 114.
+Package pdftex.def Info: figures/UIlogo.jpg used on input line 121.
 (pdftex.def)             Requested size: 96.35971pt x 100.69592pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 126.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 133.
 
 [1
 Non-PDF special ignored!
@@ -1641,7 +1641,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135 \include{text/abstract}
+l.142 \include{text/abstract}
                               [1]
 \openout2 = `text/abstract.aux'.
 
@@ -1676,11 +1676,11 @@ File: figures/image.png Graphic file (type png)
 <use figures/image.png>
 Package pdftex.def Info: figures/image.png used on input line 6.
 (pdftex.def)             Requested size: 175.65504pt x 140.52403pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 7.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 7.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1694,14 +1694,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `text/results_and_discussion.aux'.
 
  (./text/results_and_discussion.tex
-<schemes/scheme1.png, id=97, 162.8484pt x 69.3792pt>
+<schemes/scheme1.png, id=95, 162.8484pt x 69.3792pt>
 File: schemes/scheme1.png Graphic file (type png)
  <use schemes/scheme1.png>
 Package pdftex.def Info: schemes/scheme1.png used on input line 6.
 (pdftex.def)             Requested size: 130.2789pt x 55.50342pt.
 Package hyperref Info: bookmark level for unknown scheme defaults to 0 on input
  line 7.
-)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 7.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1798,7 +1802,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@los=\write8
 \openout8 = `template.los'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1807,12 +1811,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./template.aux (./text/abstract.aux) (./text/abbreviations.aux)
 (./text/introduction.aux) (./text/results_and_discussion.aux)
 (./text/conclusions_and_outlook.aux) (./text/experimental.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 86ABC72A507AAC9B805302E058E5FA85;602.
 Package logreq Info: Writing requests to 'template.run.xml'.
@@ -1820,11 +1824,11 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25067 strings out of 493315
- 461646 string characters out of 6137904
- 624897 words of memory out of 5000000
- 28034 multiletter control sequences out of 15000+600000
- 52553 words of font info for 70 fonts, out of 8000000 for 9000
+ 25075 strings out of 493315
+ 461768 string characters out of 6137904
+ 624931 words of memory out of 5000000
+ 28040 multiletter control sequences out of 15000+600000
+ 59739 words of font info for 75 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  45i,13n,49p,797b,1617s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1838,7 +1842,7 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on template.pdf (12 pages, 168742 bytes).
+Output written on template.pdf (12 pages, 165747 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  151 compressed objects within 2 object streams

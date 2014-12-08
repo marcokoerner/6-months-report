@@ -18,14 +18,21 @@
 % enable colors
 \usepackage{graphicx}
 \usepackage{xcolor}
+
 % hyperlinks in text, plus PDF with bookmarks
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
 \usepackage{pdfpages}
+
 %paragraphs and line spacing
 %\setlength{\parindent}{0pt}
 \usepackage{setspace}
 \raggedbottom
+
+% centered figure captions & use of serif font
+\usepackage[font=small,skip=0pt]{caption}
+\captionsetup[figure]{font=small,skip=0pt,}
+\captionsetup{justification=centering}
 
 % proper setting of units: # \unit[value]{unit} and chemical formulars # \ce{C2H4OH}
 \usepackage[varioref=false,journal=angew]{chemstyle}
